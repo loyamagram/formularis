@@ -1,0 +1,130 @@
+<html>
+<head>
+<title>Exemple 1</title>
+</head>
+<body>
+<form action="/registrardades.php" method="post">
+<h1>Dades Personals</h1>
+Introdueix el teu nom:
+<input type="text" name="nom"
+size="20"> <input type="reset" value="esborrar">
+<br>
+<br>
+<form action="/registrardades.php"
+method="post">
+Introdueix la teva edad:
+<input type="number" name="edad" maxlength="3" size="1" ><input type="reset" value="esborrar">
+<br>
+<br>
+<form action="/registrardades.php"
+method="post">
+Seleccioni el seu pais de naixament:
+<select name="pais">
+<option value="Espanya">Espanya</option>
+<option value="Portugal">Portugal</option>
+<option value="Fran&#231a">Fran&#231a(Perdedor)</option>
+<option value="Anglaterra" selected> Anglaterra</option>
+<option value="Alemania">Alemania</option>
+<option value="Italia">Italia</option>
+<option value="Gr&#232cia">Gr&#232cia</option>
+<option value="Irlanda">Irlanda</option>
+<option value="Holanda">Holanda</option>
+<option value="Dinamarca">Dinamarca</option>
+<option value="Austria">Austria</option>
+<option value="Altres">Altres</option>
+</select><input type="reset" value="esborrar">
+<br>
+<br>
+Tel&#232fon:
+<select name="pais_telefono">
+    <option value="1">+34(Espanya)</option>
+    <option value="2">+351(Portugal)</option>
+    <option value="3">+33[Fran&#231a(Perdedor)]</option>
+    <option value="4" selected> +44(Anglaterra)</option>
+    <option value="5">+49(Alemania)</option>
+    <option value="7">+39(Italia)</option>
+    <option value="8">+30(Gr&#232cia)</option>
+    <option value="9">+353(Irlanda)</option>
+    <option value="10">+31(Holanda)</option>
+    <option value="11">+45(Dinamarca)</option>
+    <option value="13">+43(Austria)</option>
+<input type="text"  maxlength="9" name="telefono"
+size="15"><input type="reset" value="esborrar">
+<br>
+<br>
+DNI:
+<input type="text" maxlength="10" value="-" name="dni" size="15"><input type="reset" value="esborrar">
+<br>
+<br>
+Introdueix el teu correu electrònic:
+<input type="text" name="correu" size="30"><input type="reset" value="esborrar">
+<br>
+<br>
+Introdueixi la seva contrasenya:
+<input type="password" name="contrasenya" size="12"><input type="reset" value="esborrar">
+<br>
+Al·l&#232rgies o problemes de salut:<br>
+<textarea name="Al·l&#232rgies_o_problemes_de_salut" rows="5" cols="60">Al·l&#232rgies o problemes de salut</textarea><br>
+<input type="reset" value="esborrar">
+<br>
+<br>
+Batchiller que curses:<br>
+<select name="batchiller">
+<input type="radio" name="1" value="Científic de la salut">Científic de la salut<br>
+<input type="radio" name="2" value="Científic Tecnològic">Científic Tecnològic<br>
+<input type="radio" name="3" value="Social">Social<br>
+<input type="radio" name="4" value="Humanístic">Humanístic<br></select>
+<br>
+<br>
+Introdueix una fotografia del teu DNI:
+<input type="file" name="foto">
+<br>
+<br>
+<h1>Gustos Personals</h1>
+Marques de sabates que tenguis a casa teva:
+<br>
+<select name="sabates">
+<input type="checkbox" name="nike">nike<br>
+<input type="checkbox" name="adidas">adidas<br>
+<input type="checkbox" name="puma">puma<br>
+<input type="checkbox" name="New Balance">New Balance<br>
+<input type="checkbox" name="Vans">Vans<br>
+<input type="checkbox" name="Altres">Altres<br>
+<br>
+<br>
+Menjar preferit:<br>
+<select name="menjar">
+<input type="radio" name="Pizza" value="1">Pizza<br>
+<input type="radio" name="Kebap" value="2">Kebap<br>
+<input type="radio" name="Hamburguesa" value="3">Hamburguesa<br>
+<input type="radio" name="Escalop" value="4">Escalop<br>
+<input type="radio" name="Altres" value="5">Altres<br>
+<br>
+<br>
+Tipus de música que escoltis:<br>
+<input type="checkbox" name="Reggaeton">Reggaeton<br>
+<input type="checkbox" name="Rap">Rap<br>
+<input type="checkbox" name="Pop">Pop<br>
+<input type="checkbox" name="Rock">Rock<br>
+<input type="checkbox" name="Reagge">Reagge<br>
+<input type="checkbox" name="Altres">Altres<br>
+<br>
+<br>
+Gust musical preferit:<br>
+<input type="radio" name="Reggaeton" value="1">Reggaeton<br>
+<input type="radio" name="Rap" value="2">Rap<br>
+<input type="radio" name="Pop" value="3">Pop<br>
+<input type="radio" name="Rock" value="4">Rock<br>
+<input type="radio" name="Reagge" value="5">Reagge<br>
+<input type="radio" name="Altres" value="6">Altres<br>
+<br>
+<br>
+t'ha agradat el formulari:<br>
+<input type="radio" name="Si" value="1">Si<br>
+<input type="radio" name="No" value="2">No<br>
+<input type="radio" name="¿si o que?" value="3">¿si o que?<br>
+<br>
+<input type="submit" value="enviar">
+</form>
+</body>
+</html>
